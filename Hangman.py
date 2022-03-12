@@ -6,6 +6,7 @@ words={'Movies':['inception','interstellar','memento','dunkirk','tenet'],
 'Places':['hongkong','brazil','italy','spain','venice'],
 'animals':['aardvark', 'anteater', 'antelope', 'albert']}
 #version1 update
+#ver2 added
 res=random.choice(list(words.keys()))
 print(res)
 x=random.choice(words[res])
